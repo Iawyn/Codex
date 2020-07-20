@@ -4,7 +4,7 @@
 3) git push = impinge schimbarile spre repositoriu
 4) git pull = traje modificarile
 5) git branch <nume> = creeaza un branch nou
-5.5) git branch = arata in ce branch te afli, si branch-urile create
-6) git checkout <nume branch> = schimba branch-ul
-7) git checkout = branch-ul principal
-8) git status = arata care file-uri au fost sterse sau adaugate in repositoriu
+6) git branch = arata in ce branch te afli, si branch-urile create
+7) git checkout <nume branch> = schimba branch-ul
+8) git checkout = branch-ul principal
+9) git status = arata care file-uri au fost sterse sau adaugate in repositoriu
