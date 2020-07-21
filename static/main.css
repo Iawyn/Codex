@@ -1,0 +1,105 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix
+{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+header
+{
+	background: #464646;
+	height: 65px;
+}
+
+
+.background
+{
+	background: url(C:/Users/User/Desktop/Codex/static/images/Background_1.jpg) 
+	no-repeat center top / cover;
+	height: 600px;
+}
+
+
+.square
+{
+	top: 75.84px;
+	width: 100%;
+	height: 600px;
+	background: rgba(46, 46, 46, 0.53);
+	
+}
+
+.title
+{
+	font-size: 63px;
+	color: #fff;
+	text-align: center;
+	margin-top: -309px;
+	font-family: Beatrix Antiqua;
+}
+
+.container
+{
+	width: 1275px;
+	margin: 0 auto;
+}
+
+.logo
+{
+	width: 10%; 
+    height: 10%;
+	margin-top: 15px;
+	float: left;
+}
+
+nav
+{
+	float: right;
+	margin-top: 15px;
+}
+
+.menu
+{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li
+{
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+
+.menu a 
+{
+	color: #fff;
+	text-decoration: none;
+	font-family: Roboto Light;
+	font-size: 19px;
+}
+
+
+.button
+{
+	color: #fff;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 50px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	font-family: Roboto Light;
+	font-size: 20px;
+	margin-top: 95px;
+}
