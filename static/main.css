@@ -38,11 +38,36 @@ header
 
 .title
 {
-	font-size: 63px;
+	
+	padding-top: 371px;
+	font-size: 80px;
 	color: #fff;
 	text-align: center;
-	margin-top: -309px;
-	font-family: Beatrix Antiqua;
+	font-family: Beatrix Antiqua Regular;	
+}
+
+.title__menue
+{
+
+	border-bottom: 2px solid #a67c52;
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	font-family: Beatrix Antiqua Regular;
+	font-size: 48px;
+	margin-top: 65px;
+	padding-top: 66px;
+	margin-bottom: 75px;
+
+	
+}
+
+.title__menue:after {
+    content: "";
+    display: table-cell;
+    width: 100%;
 }
 
 .container
@@ -143,5 +168,52 @@ nav
 .services__item:nth-child(2)
 {
 	margin-left: 70px;
+}
+
+#about
+{
+	background: rgba(46, 46, 46, 0.05);
+}
+
+
+.service__about
+{
+	width: 700px;
+	float: left;
+	text-align: left;
+}
+
+.service__about p
+{
+	font-family: Roboto Light;
+	font-size: 19px;
+	line-height: 1.7em;
+	padding-left: 60px;
+
+}
+
+.counter 
+{
+	width: 450px;
+	float: right;
+	text-align: center;
+	
+
+	
+}
+
+.counter h3
+{
+	font-size: 32px;
+	font-family: Beatrix Antiqua Regular;
+	margin-bottom: -60px;
+}
+
+.counter p
+{
+	font-size: 80px;
+	font-family: Roboto Light;
+	color: #a67c52;
+	padding-bottom: 100px;
 }
 
