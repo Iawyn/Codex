@@ -6,7 +6,7 @@
 	margin: 0px;
 }
 
-.signin
+.signup
 {
 	
 	padding-top: 150px;
@@ -39,27 +39,10 @@
 	margin: 0 10px;
 }
 
-.check
-{
-	margin-top: 10px;
-	padding-left: 442px;
-}
 
-.check h3
-{
-	font-size: 14px;
-	font-family: 'Work Sans', sans-serif;
-	padding-left: 4px;
-}
 
-.forgot-password a
-{
-	margin-top: 15px;
-	font-size: 12px;
-	color: #a1a19f;
-}
 
-.signIn-button
+.confirm
 {
 	
 	border: rgba(210, 172, 44, 0.5) 1.4px solid;
@@ -70,5 +53,5 @@
 	border-radius: 25px 25px 25px 25px;
 	font-size: 17px;
 	margin-top: 30px;
-	margin-bottom: 100px;
+	margin-bottom: 142px;
 }
