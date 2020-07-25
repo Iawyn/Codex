@@ -138,8 +138,20 @@ a
 
 /*-----Account content starts-------*/
 
+.profile
+{
+	padding: 150px 0px;
+	width: 100%;
+	float: left;
+}
 
-
+.avatar{
+	height: 250px;
+	width: 250px;
+	background-color: #555;
+	border-radius: 50%;
+	margin: 0 auto;
+}
 
 /*-----Account content ends-------*/
 
