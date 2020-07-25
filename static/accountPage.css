@@ -1,5 +1,32 @@
-@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@charset "utf-8";
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+i{
+	font-family: fontawesome !important;
+}
+
+body 
+{
+	font-family: 'Work Sans', sans-serif;
+	position: relative;
+	min-height: 96vh;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+	font-family: 'Beatrix Antiqua Regular', cursive;
+}
+
+a 
+{
+	outline: none !important;
+}
 
 /*-----Header & Banner Starts-------*/
 
@@ -109,31 +136,50 @@
 }
 /*-----Header & Banner Ends-------*/
 
+/*-----Account content starts-------*/
+
+
+
+
+/*-----Account content ends-------*/
 
 /*-----Contact Starts-------*/
 
-footer {
-	padding: 25px 0;
+footer 
+{
 	text-align: center;
 	width: 100%;
 	float: left;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
-footer span.copyright {
+
+footer span.copyright 
+{
 	line-height: 40px;
 	text-transform: none;
 }
-footer ul.quicklinks {
+
+footer ul.quicklinks 
+{
 	margin-bottom: 0px;
 }
-footer ul.quicklinks a {
+
+footer ul.quicklinks a 
+{
 	color: #EB233C;
 	line-height: 40px;
 	text-decoration: none;
 }
-ul.social-buttons {
+
+ul.social-buttons 
+{
 	margin-bottom: 0;
 }
-ul.social-buttons li a {
+
+ul.social-buttons li a 
+{
 	background-color: #222;
 	border-radius: 100%;
 	color: #fff;
@@ -145,10 +191,14 @@ ul.social-buttons li a {
 	transition: all 0.3s ease 0s;
 	width: 40px;
 }
-ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active 
+{
 	background-color: #a67c52;
 }
-.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+
+.btn:focus, .btn:active, .btn.active, .btn:active:focus 
+{
 	outline: 0 none;
 }
 /*-----Contact Ends-------*/
