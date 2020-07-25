@@ -74,7 +74,7 @@ a
 }
 /*-----Header Ends-------*/
 
-/*-----SingUp Info Starts-------*/
+/*-----SingIn Info Starts-------*/
 .signIn
 {
 	padding: 150px 0px;
@@ -122,7 +122,14 @@ label h4
 	
 }
 
-.signUp-button
+.forgot-password
+{
+	margin-top: 15px;
+	font-size: 12px;
+	color: #a1a19f;
+}
+
+.signIn-button
 {
 	
 	border: rgba(210, 172, 44, 0.5) 1.4px solid;
@@ -135,7 +142,7 @@ label h4
 	margin-top: 30px;
 	
 }
-/*-----SingUp Info Ends-------*/
+/*-----SingIn Info Ends-------*/
 
 /*-----Footer Starts-------*/
 footer 
