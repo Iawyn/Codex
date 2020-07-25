@@ -9,6 +9,7 @@
 body 
 {
 	font-family: 'Work Sans', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5, h6 
@@ -326,28 +327,39 @@ a
 
 /*-----Contact Starts-------*/
 
-footer {
+footer 
+{
 	padding: 25px 0;
 	text-align: center;
 	width: 100%;
 	float: left;
 }
-footer span.copyright {
+
+footer span.copyright 
+{
 	line-height: 40px;
 	text-transform: none;
 }
-footer ul.quicklinks {
+
+footer ul.quicklinks 
+{
 	margin-bottom: 0px;
 }
-footer ul.quicklinks a {
+
+footer ul.quicklinks a 
+{
 	color: #EB233C;
 	line-height: 40px;
 	text-decoration: none;
 }
-ul.social-buttons {
+
+ul.social-buttons 
+{
 	margin-bottom: 0;
 }
-ul.social-buttons li a {
+
+ul.social-buttons li a 
+{
 	background-color: #222;
 	border-radius: 100%;
 	color: #fff;
@@ -359,10 +371,14 @@ ul.social-buttons li a {
 	transition: all 0.3s ease 0s;
 	width: 40px;
 }
-ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active 
+{
 	background-color: #a67c52;
 }
-.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+
+.btn:focus, .btn:active, .btn.active, .btn:active:focus 
+{
 	outline: 0 none;
 }
 /*-----Contact Ends-------*/
