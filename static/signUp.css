@@ -1,4 +1,4 @@
-@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@charset "utf-8";
 
 *
 {
@@ -6,24 +6,92 @@
 	margin: 0px;
 }
 
-.signup
+body 
 {
-	margin-top: 10px;
-	padding-top: 150px;
+	font-family: 'Work Sans', sans-serif;
+	position: relative;
+	min-height: 96vh;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+	font-family: 'Beatrix Antiqua Regular', cursive;
+}
+
+a 
+{
+	outline: none !important;
+}
+
+/*-----Header Starts-------*/
+.navbar-brand
+{
+	font-family: 'Beatrix Antiqua Regular', cursive;
+	color: #fff;
+	padding-top: 19px;
+	font-size: 26px;
+}
+
+.navbar-brand:hover 
+{
+	color: #d2ac2c;
+}
+
+.navbar-toggle 
+{
+	background-color: #fff;
+}
+.navbar-toggle .icon-bar 
+{
+	background-color: rgba(0, 0, 0, 0.48);
+}
+
+.mynav 
+{
+	background: #464646 none repeat scroll 0% 0%;
+}
+
+.mynav li a 
+{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.nav > li > a:focus, .nav > li > a 
+{
+	color: #E1DBDB;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a 
+{
+	background-color: #616161;
+	color: #fff;
+	border-bottom: 2px solid #a67c52;
+}
+.navbar-nav > li > a 
+{
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+/*-----Header Ends-------*/
+
+/*-----SingIn Info Starts-------*/
+.signIn
+{
+	padding: 150px 0px;
 	width: 100%;
 	float: left;
 }
 
-.login-box h1
+.signIn h1 
 {
-	font-family: 'Beatrix Antiqua Regular', cursive;
+	margin-top: 0px;
+	margin-bottom: 50px;
 	border-bottom: 2px solid #d2ac2c;
 	display: inline-block;
 	line-height: 35px;
-	margin-bottom: 50px;
 }
 
-.login-data
+.login-info
 {
 	
 	border-bottom: 1px solid #d2ac2c;
@@ -31,7 +99,7 @@
 	line-height: 35px
 }
 
-.login-data input
+.login-info input
 {
 	border: none;
 	outline: none;  
@@ -39,7 +107,29 @@
 	margin: 0 10px;
 }
 
-.confirm
+
+input[type="checkbox"]
+{
+	margin-top: 20px;
+	margin-left: 442px;
+	
+}
+
+label h4
+{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	
+}
+
+.forgot-password
+{
+	margin-top: 15px;
+	font-size: 12px;
+	color: #a1a19f;
+}
+
+.signIn-button
 {
 	
 	border: rgba(210, 172, 44, 0.5) 1.4px solid;
@@ -48,19 +138,67 @@
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
-	margin-top: 30px;
 	font-size: 17px;
+	margin-top: 30px;
+	
 }
+/*-----SingIn Info Ends-------*/
 
-
-.foot
+/*-----Footer Starts-------*/
+footer 
 {
-	position: fixed;
-    left: 0px;
-    bottom: 0px;
-    height: 92px;
-    width: 100%;
-    background: #fff;
+	text-align: center;
+	width: 100%;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
+footer span.copyright 
+{
+	line-height: 40px;
+	text-transform: none;
+}
 
+footer ul.quicklinks 
+{
+	margin-bottom: 0px;
+}
+
+footer ul.quicklinks a 
+{
+	color: #EB233C;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+ul.social-buttons 
+{
+	margin-bottom: 0;
+}
+
+ul.social-buttons li a 
+{
+	background-color: #222;
+	border-radius: 100%;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	outline: 0 none;
+	transition: all 0.3s ease 0s;
+	width: 40px;
+}
+
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active 
+{
+	background-color: #a67c52;
+}
+
+.btn:focus, .btn:active, .btn.active, .btn:active:focus 
+{
+	outline: 0 none;
+}
+/*-----Footer Ends-------*/
