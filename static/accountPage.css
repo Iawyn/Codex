@@ -113,7 +113,7 @@ a
 	background: #464646 none repeat scroll 0% 0%;
 }
 
-.mynav li a 
+.mynav li a pip install -r requirements.txt
 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 14px;
@@ -154,6 +154,7 @@ a
     display: inline-block;
 }
 
+
 /*-----Account content ends-------*/
 
 /*-----Contact Starts-------*/
@@ -163,9 +164,10 @@ footer
 	text-align: center;
 	width: 100%;
 	float: left;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
+	
 }
 
 footer span.copyright 
