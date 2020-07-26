@@ -7,15 +7,21 @@
 	margin: 0px;
 }
 
-i{
+i
+{
 	font-family: fontawesome !important;
+}
+
+html, body 
+{
+	height: 100%;
 }
 
 body 
 {
 	font-family: 'Work Sans', sans-serif;
-	position: relative;
-	min-height: 96vh;
+	display: flex;
+  	flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 
@@ -115,7 +121,7 @@ a
 
 input[type="checkbox"]
 {
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 442px;
 	
 }
@@ -144,20 +150,36 @@ label h4
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 17px;
-	margin-top: 30px;
+	margin-top: 20px;
+	
 	
 }
 /*-----SingIn Info Ends-------*/
 
 /*-----Footer Starts-------*/
-footer 
+.content, footer 
 {
+	padding: 1rem;  
+}
+
+.wrapper 
+{
+	flex-grow: 1;
+}
+
+.footer 
+{
+
+	padding: 25px 0;
 	text-align: center;
 	width: 100%;
 	float: left;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+
+}
+
+p 
+{
+	margin-top: 1rem;
 }
 
 footer span.copyright 

@@ -7,15 +7,21 @@
 	margin: 0px;
 }
 
-i{
+i
+{
 	font-family: fontawesome !important;
+}
+
+html, body 
+{
+	height: 100%;
 }
 
 body 
 {
 	font-family: 'Work Sans', sans-serif;
-	position: relative;
-	min-height: 96vh;
+	display: flex;
+  	flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 
@@ -50,62 +56,6 @@ a
 .navbar-toggle .icon-bar 
 {
 	background-color: rgba(0, 0, 0, 0.48);
-}
-
-.banner 
-{
-	background-attachment: fixed;
-	background-color: rgba(46, 46, 46, 0.43);
-	background-image: url(images/Background_1.jpg);
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: white;
-	cursor: default;
-	text-align: center;
-	padding-top: 50px;
-	width: 100%;
-	float: left;
-}
-
-.bg-overlay 
-{
-	padding: 280px 0 220px;
-	background-color: rgba(46, 46, 46, 0.6);
-}
-
-.banner-text h2 
-{
-	font-size: 60px;
-}
-
-.banner-text h2 span 
-{
-	color: #d2ac2c;
-}
-
-.banner-text p 
-{
-	font-size: 15px;
-}
-
-.banner-button 
-{
-	border: rgba(255, 255, 255, 0.3) 1px solid;
-	padding: 12px 35px;
-	color: #ccc;
-	text-decoration: none;
-	display: inline-block;
-	border-radius: 25px 25px 25px 25px;
-	font-size: 17px;
-	margin-top: 50px;
-}
-
-.banner-button:hover 
-{
-	background-color: #ccc;
-	text-decoration: none;
-	color: #000;
 }
 
 .mynav 
@@ -158,14 +108,35 @@ a
 
 /*-----Contact Starts-------*/
 
-footer 
+.content, footer 
 {
+	padding: 1rem;  
+}
+
+.wrapper 
+{
+	flex-grow: 1;
+}
+
+.footer 
+{
+
+	padding: 25px 0;
 	text-align: center;
 	width: 100%;
 	float: left;
+<<<<<<< HEAD
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+=======
+
+}
+
+p 
+{
+	margin-top: 1rem;
+>>>>>>> 74f735a1d38525eac835a9c1dc5caf168e4f70d6
 }
 
 footer span.copyright 
