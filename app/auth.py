@@ -7,7 +7,7 @@ import email_validator
 from flask_login import login_user, current_user, logout_user, login_required
 
 
-@app.route("/register",methods=['GET','POST'])
+@app.route("/signup",methods=['GET','POST'])
 def register():
     form = RegisterForm()
 
@@ -20,7 +20,7 @@ def register():
     return render_template('signup.html', form=form)
 
 
-@app.route("/login", methods=['GET', 'POST'])
+@app.route("/signIn", methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
         return '<h1>Niaceuu </h1>'
@@ -35,4 +35,4 @@ def login():
             return '<h1>Niceu</h1>'
         else:
             flash('Login Unsuccessful. Please check email and password', 'danger')
-    return render_template('signIn.html', title='Login', form=form)
+    return render_template('signIn.html', title='SignIn', form=form)
