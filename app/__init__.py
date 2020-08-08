@@ -19,7 +19,8 @@ else:
 
 pymysql.install_as_MySQLdb() #initialzie mySQL
 db = SQLAlchemy(app) #initialize db
-Bootstrap(app) #initialize boostrap
+bootstrap = Bootstrap() #initialize boostrap
+bootstrap.init_app(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager() #initialize login manager
 login_manager.init_app(app)
