@@ -1,3 +1,55 @@
+<style>
+	
+	.navbar-brand
+	{
+		font-family: 'Beatrix Antiqua Regular', cursive;
+		color: #fff;
+		padding-top: 19px;
+		font-size: 26px;
+	}
+
+	.navbar-brand:hover 
+	{
+		color: #d2ac2c;
+	}
+
+	.navbar-toggle 
+	{
+		background-color: #fff;
+	}
+	.navbar-toggle .icon-bar 
+	{
+		background-color: rgba(0, 0, 0, 0.48);
+	}
+
+	.mynav 
+	{
+		background: #464646 none repeat scroll 0% 0%;
+	}
+
+	.mynav li a 
+	{
+		font-family: 'Work Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.nav > li > a:focus, .nav > li > a 
+	{
+		color: #E1DBDB;
+	}
+	.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a 
+	{
+		background-color: #616161;
+		color: #fff;
+		border-bottom: 2px solid #a67c52;
+	}
+	.navbar-nav > li > a 
+	{
+		padding-top: 15px;
+		padding-bottom: 13px;
+	}
+</style>
+
 <div class="main-header" id="main-header">
 	<nav>
 		<div class="navbar mynav navbar-fixed-top">
@@ -9,8 +61,8 @@
 						<ul class="nav navbar-nav navbar-right">
 						  <li class="active"><a href="{{ url_for('index') }}">Home</a></li>
 						  <li><a href="{{ url_for('index') }}">About</a></li>
-						  <li><a href="{{ url_for('login') }}">Sign Up</a></li>
-						  <li><a href="{{ url_for('register') }}">Sign In</a></li
+						  <li><a href="{{ url_for('login') }}">Login</a></li>
+						  <li><a href="{{ url_for('register') }}">Register</a></li
 						</ul>
 					  </div>
 				</div>
