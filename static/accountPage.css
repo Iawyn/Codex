@@ -34,6 +34,7 @@ a
 	outline: none !important;
 }
 
+<<<<<<< HEAD
 /*-----Header & Banner Starts-------*/
 
 .navbar-brand
@@ -87,6 +88,8 @@ a
 /*-----Header & Banner Ends-------*/
 
 /*-----Account content starts-------*/
+=======
+>>>>>>> test
 
 .profile
 {
@@ -106,6 +109,7 @@ a
 
 
 /*-----Account content ends-------*/
+<<<<<<< HEAD
 
 /*-----Contact Starts-------*/
 
@@ -181,3 +185,5 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	outline: 0 none;
 }
 /*-----Contact Ends-------*/
+=======
+>>>>>>> test

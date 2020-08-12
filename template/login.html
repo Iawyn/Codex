@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+
+  <!-- SignIn Info Stars -->
+  <div class="wrapper">
+    <div class="content">
+      <div class="signIn" id="singIn">
+        <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1>Sign In</h1>
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="login-info">
+                <i class="fas fa-user"></i>
+                {{ form.username.label(class="form-control-label") }}
+                {% if form.username.errors %}
+                  {{ form.username(class="form-control form-control-lg is-invalid") }}
+                  <div class="invalid-feedback">
+                  {% for error in form.user.errors %}
+                      <span>{{ error }}</span>
+                  {% endfor %}
+              </div>
+              {% else %}
+                        {{ form.username(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="login-info">
+                <i class="fas fa-lock"></i>
+                {{ form.password.label(class="form-control-label") }}
+                {% if form.password.errors %}
+                    {{ form.password(class="form-control form-control-lg is-invalid") }}
+                    <div class="invalid-feedback">
+                      {% for error in form.password.errors %}
+                          <span>{{ error }}</span>
+                      {% endfor %}
+                  </div>
+              {% else %}
+                  {{ form.password(class="form-control form-control-lg") }}
+              {% endif %}
+                  </div>
+            </div>
+            <div class="text-center">
+                <tr>
+                    {{ form.remember(class="form-check-input") }}
+                    {{ form.remember.label(class="form-check-label") }}
+                </tr>
+            </div>
+            <div class="col-md-12 text-center">
+              <a href="" class="forgot-password">Forgot password?</a>
+            </div>
+            <div class="col-md-12 text-center">
+              <div type="button" class="btn btn-dark">
+                {{ form.submit(class="btn btn-dark") }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+  <div class="col-md-12 text-center">
+    <small class="text-muted">
+        Need An Account? <a class="ml-2" href="{{ url_for('register') }}">Sign Up Now</a>
+    </small>
+</div>
+  <!-- SignIn Info Ends -->
+
+</body>
+</html>
+
+{% endblock content %}
