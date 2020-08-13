@@ -45,4 +45,26 @@ a
     display: inline-block;
 }
 
-/*-----Account content ends-------*/
+
+section {
+    background-image: linear-gradient(to right, rgba(127,127,127,0.33) 0%, rgba(127,127,127,0.33) 20%, transparent 20%);
+    background-position: 0 bottom;
+    background-size: 5px 1px;
+    background-repeat: repeat-x;
+}
+
+
+section.experience h2 {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(115,120,190);
+}
+
+section.experience div.exp-bar {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(45,47,77);
+}
+
