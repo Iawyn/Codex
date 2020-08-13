@@ -7,21 +7,15 @@
 	margin: 0px;
 }
 
-i
-{
+i{
 	font-family: fontawesome !important;
-}
-
-html, body 
-{
-	height: 100%;
 }
 
 body 
 {
 	font-family: 'Work Sans', sans-serif;
-	display: flex;
-  	flex-direction: column;
+	position: relative;
+	min-height: 96vh;
 }
 
 h1, h2, h3, h4, h5, h6 
@@ -34,62 +28,6 @@ a
 	outline: none !important;
 }
 
-<<<<<<< HEAD
-/*-----Header & Banner Starts-------*/
-
-.navbar-brand
-{
-	font-family: 'Beatrix Antiqua Regular', cursive;
-	color: #fff;
-	padding-top: 19px;
-	font-size: 26px;
-}
-
-.navbar-brand:hover 
-{
-	color: #d2ac2c;
-}
-
-.navbar-toggle 
-{
-	background-color: #fff;
-}
-.navbar-toggle .icon-bar 
-{
-	background-color: rgba(0, 0, 0, 0.48);
-}
-
-.mynav 
-{
-	background: #464646 none repeat scroll 0% 0%;
-}
-
-.mynav li a pip install -r requirements.txt
-{
-	font-family: 'Work Sans', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-}
-.nav > li > a:focus, .nav > li > a 
-{
-	color: #E1DBDB;
-}
-.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a 
-{
-	background-color: #616161;
-	color: #fff;
-	border-bottom: 2px solid #a67c52;
-}
-.navbar-nav > li > a 
-{
-	padding-top: 15px;
-	padding-bottom: 13px;
-}
-/*-----Header & Banner Ends-------*/
-
-/*-----Account content starts-------*/
-=======
->>>>>>> test
 
 .profile
 {
@@ -107,83 +45,4 @@ a
     display: inline-block;
 }
 
-
 /*-----Account content ends-------*/
-<<<<<<< HEAD
-
-/*-----Contact Starts-------*/
-
-.content, footer 
-{
-	padding: 1rem;  
-}
-
-.wrapper 
-{
-	flex-grow: 1;
-}
-
-.footer 
-{
-
-	padding: 25px 0;
-	text-align: center;
-	width: 100%;
-	float: left;
-
-}
-
-p 
-{
-	margin-top: 1rem;
-}
-
-footer span.copyright 
-{
-	line-height: 40px;
-	text-transform: none;
-}
-
-footer ul.quicklinks 
-{
-	margin-bottom: 0px;
-}
-
-footer ul.quicklinks a 
-{
-	color: #EB233C;
-	line-height: 40px;
-	text-decoration: none;
-}
-
-ul.social-buttons 
-{
-	margin-bottom: 0;
-}
-
-ul.social-buttons li a 
-{
-	background-color: #222;
-	border-radius: 100%;
-	color: #fff;
-	display: block;
-	font-size: 20px;
-	height: 40px;
-	line-height: 40px;
-	outline: 0 none;
-	transition: all 0.3s ease 0s;
-	width: 40px;
-}
-
-ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active 
-{
-	background-color: #a67c52;
-}
-
-.btn:focus, .btn:active, .btn.active, .btn:active:focus 
-{
-	outline: 0 none;
-}
-/*-----Contact Ends-------*/
-=======
->>>>>>> test
