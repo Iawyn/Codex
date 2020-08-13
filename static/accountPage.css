@@ -7,15 +7,21 @@
 	margin: 0px;
 }
 
-i{
+i
+{
 	font-family: fontawesome !important;
+}
+
+html, body 
+{
+	height: 100%;
 }
 
 body 
 {
 	font-family: 'Work Sans', sans-serif;
-	position: relative;
-	min-height: 96vh;
+	display: flex;
+  	flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 
@@ -31,6 +37,7 @@ a
 
 .profile
 {
+
 	padding: 150px 0px;
 	width: 100%;
 	float: left;
@@ -44,5 +51,6 @@ a
     border: 4px solid rgba(0, 0, 0, 0.46);
     display: inline-block;
 }
+
 
 /*-----Account content ends-------*/
