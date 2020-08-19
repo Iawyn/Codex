@@ -1,16 +1,15 @@
 {% extends 'base.html' %}
   <!-- Account Content Starts -->
 {% block content %}
-<body>
   <div class="profile" id="profile">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1>niknam</h1>
+          <h1>{{ current_user.username }}</h1>
         </div>
         <div class="col-md-12 text-center">
           <div class="avatar">
-            <img src="/static/images/team-img-01.jpg">
+            <img src="{{ image_file }}">
           </div>
         </div>
         <section class="experience">
@@ -49,6 +48,5 @@
       </div>
     </div>
   </div>
-</body>
-{% endblock %}
+{% endblock content %}
   <!-- Account Content ends -->
